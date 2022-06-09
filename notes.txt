@@ -1,0 +1,27 @@
+
+what nodes does our graph need?
+
+Input Node
+-------------
+represents the command / target action being feed into the graph
+
+Output Node
+-------------
+represents a boolean condition for whether or not the input satisfies the graph
+
+most basic functional nodes
+-------------
+string.contains - this node works exactly like the regex criteria in vnet
+
+but how do these graphs get stored?
+using the flow.toObject() can the internal data be accessed?
+
+try using the save restore demo and the custom node demo with the text field
+see if we can save the data
+
+{
+    name: "dir match",
+    nodes: ["all the nodes"],
+    edges: ["all the edges,
+    
+}
